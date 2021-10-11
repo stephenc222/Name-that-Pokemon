@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+
+.choice-button {
+  padding: 0.5em;
+  margin: 0.5em;
+  width: 100%;
+  cursor: pointer;
+}
+
+.choices-container {
+  display: flex;
+  justify-content: flex-start;
+  width: 10em;
+}
