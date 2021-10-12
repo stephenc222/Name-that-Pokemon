@@ -1,0 +1,11 @@
+.score-text {
+  padding: 1em;
+  font-weight: bold;
+  color: #3F51B5;
+}
+
+.time-remaining-text {
+  padding: 1em;
+  font-weight: bold;
+  color: #F44336;
+}
