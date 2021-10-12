@@ -16,7 +16,7 @@ const Play = ({ numCorrect, total, timeRemaining, choices, onSelect, pokemon}: P
       <span className='score-text'>
         Score: {numCorrect} / {total}
       </span>
-      <span className='time-remaining-text'>Time Remaining: {timeRemaining}</span>
+      <span className='time-remaining-text'>Time Remaining: {Math.floor(timeRemaining / 1000)}</span>
       <img
         src={pokemon?.imgUri}
         width={96}
